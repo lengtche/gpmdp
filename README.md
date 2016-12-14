@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lengtche/gpmdp.svg?branch=master)](https://travis-ci.org/lengtche/gpmdp)
+
 # gpmdp README
 
 This is the README for your extension "gpmdp". After writing up a brief description, we recommend including the following sections.
