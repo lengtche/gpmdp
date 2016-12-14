@@ -28,7 +28,7 @@ export function deactivate() {
 }
 
 class CurrentlyListeningUpdater {
-    playbackJsonPath: string = 'C:\\Users\\mike\\AppData\\Roaming\\Google Play Music Desktop Player\\json_store\\playback.json';
+    playbackJsonPath: string = process.env.APPDATA + '/Google Play Music Desktop Player/json_store/playback.json';
     _statusBarItem: StatusBarItem;
 
     public startListening(): void {
